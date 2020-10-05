@@ -1,5 +1,4 @@
 import React, { ButtonHTMLAttributes } from 'react';
-import { useField } from '@unform/core';
 
 import { Container } from './styles';
 
