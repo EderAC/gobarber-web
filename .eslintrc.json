@@ -31,10 +31,14 @@
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react/jsx-one-expression-per-line": "off",
+    "@typescript-eslint/ban-types" : "off",
     "react/jsx-props-no-spreading": "off",
-    "react/prop-types": "off",
+    "import/prefer-default-export": "off",
     "no-unused-expressions": "off",
+    "no-use-before-define": "off",
+    "react/prop-types": "off",
     "no-console": "off",
+    "camelcase":"off",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
       1,
@@ -44,8 +48,6 @@
         ]
       }
     ],
-    "import/prefer-default-export": "off",
-    "@typescript-eslint/ban-types" : "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
@@ -60,8 +62,6 @@
         "tsx": "never"
       }
     ],
-    "no-use-before-define": "off",
-    "camelcase":"off",
     "prettier/prettier": "error"
   },
   "settings": {
